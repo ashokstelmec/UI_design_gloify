@@ -1,38 +1,134 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  flex-wrap: wrap;
 }
 
-.App-link {
-  color: #61dafb;
+.pics{
+  flex: 2;
+  border-right: 1px solid #000;
+  height: 100vh;
+  background: url(./pic/hd_4.jpg);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.form-group{
+  flex: 1;
+}
+
+.new-account{
+  margin-left: 4rem;
+}
+
+.new-account h1{
+  color: gray;
+  font-family: sans-serif;
+  margin-top: 1.9rem;
+  margin-bottom: 1.4rem;
+}
+
+.new-account span{
+  color: green;
+}
+
+.new-account p{
+  color: gray;
+  font-size: 1.1rem;
+}
+
+.title{
+  margin-bottom: 0.6rem;
+}
+
+form label{
+  color: gray;
+}
+
+form input{
+  width: 82%;
+  padding: 0.6rem;
+  padding-left: 3.5rem;
+  border: 1px solid gray;
+  border-radius: 5px;
+  margin-bottom: 1.5rem;
+  font-size: 1.2rem;
+  margin-left: -1rem;
+  /* border-color: gray; */
+}
+
+form button{
+  width: 82%;
+  padding: 0.6rem;
+  background-color: rgb(5, 106, 5);
+  color: #fff;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.icons{
+  position: relative;
+  left: 25px;
+  top: 3px;
+  font-size: 1.2rem;
+}
+
+.icon{
+  position: relative;
+  right: 34px;
+}
+
+.btn{
+  margin-left: 3.3rem;  
+  margin-top: 0.7rem;
+}
+
+.btn button{
+  padding: 0.4rem 2rem;
+  border: none;
+  background: whitesmoke;
+  border-radius: 7px;
+  font-size: 1.2rem;
+}
+
+.icon-1{
+  position: relative;
+  top: 5px;
+  right: 5px;
+  font-size: 1.4rem;
+}
+
+.borders{
+  border-bottom: 1px solid #000;
+  width: 82%;
+  margin-top: 1.5rem;
+}
+
+.or{
+  padding: 0.2rem 0.99rem;
+  width: 50px;
+  margin-left: 10rem;
+  margin-top: -1rem;
+  background-color: #fff;
+}
+
+.clicking{
+  margin-bottom: 1rem;
+  line-height: 1.4rem;
+}
+
+.an-account{
+  margin-left: 1.3rem;
+}
+
+.sell-data{
+  color: rgb(238, 94, 94);
+  font-size: 1.1rem;
 }
