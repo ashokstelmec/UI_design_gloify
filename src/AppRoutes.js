@@ -19,12 +19,6 @@ const AppRoutes = () => {
   return (
     <div>
       <RouterProvider router={router} />
-      {/* <Router>
-        <Routes>
-          <Route path="/" element={<SignUp />}></Route>
-          <Route path="/SignIn" element={<SignIn />}></Route>
-        </Routes>
-      </Router> */}
     </div>
   );
 };
